@@ -1,9 +1,9 @@
 const user = {
-  name: 'Vite',
+	name: 'Vite',
 };
 
 test('Vite', () => {
-  expect(user.name).toBe('Vite');
+	expect(user.name).toBe('Vite');
 });
 
 export {};

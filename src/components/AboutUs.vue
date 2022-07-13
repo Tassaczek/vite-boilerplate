@@ -5,11 +5,11 @@ const counterStore = useCounterStore();
 const router = useRouter();
 
 function increment() {
-  counterStore.increment();
+	counterStore.increment();
 }
 
 function goToHome() {
-  router.push({ name: 'home' });
+	router.push({ name: 'home' });
 }
 </script>
 
